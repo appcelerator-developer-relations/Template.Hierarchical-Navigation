@@ -49,7 +49,19 @@ if (OS_IOS){
 
 ---
 
-> NOTE: **home.js** includes ActionBarExtras to help you easily customize the ActionBar without the need for custom ActionBar Styles
+NOTES: 
+
+**home.js** includes ActionBarExtras to help you easily customize the ActionBar without the need for custom ActionBar Styles.
+
+It also includes three base themes you could use in your **tiapp.xml**: Light, Dark and LightDarkBar.  To use any of these, simply declare them in the Android section like so:
+
+````xml
+<android xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest>
+          <application android:theme="@style/Light"/>
+    </manifest>
+</android>
+````
 
 # License
 
