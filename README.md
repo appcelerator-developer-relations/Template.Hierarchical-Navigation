@@ -1,7 +1,7 @@
 # Template.Hierarchical-Navigation
 
 
-The template provides the necessary scaffolding to implement native hierarchical, also known as Parent-Child or Master-Detail, using platform-specific containers with content reusability, ensuring the best native user experience with high code reusability when required.  Here's what it offers:
+The Barebones template provides the necessary scaffolding to implement native hierarchical, also known as Parent-Child or Master-Detail, using platform-specific containers with content reusability, ensuring the best native user experience with high code reusability when required.  Here's what it offers:
 
 ![](http://drops.ricardoalcocer.com/drops/readme_image-Nxc2gu6gH5.png)
 ![](http://sht.tl/VYhJar)
