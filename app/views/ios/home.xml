@@ -11,9 +11,9 @@
 
 			<!-- this implements the toolbar menu icons.  remove if not needed 																						-->
 			<!-- information on the possible native values for systemButton(icon): http://docs.appcelerator.com/titanium/3.0/#!/api/Titanium.UI.iPhone.SystemButton -->
-			<RightNavButtons>
-				<Button systemButton="Ti.UI.iPhone.SystemButton.ADD" onClick="doadd"/>
-			</RightNavButtons>
+
+      <!-- Changed back to RightNavButton due to SDK Bug https://jira.appcelerator.org/browse/TIMOB-17367 -->
+			<RightNavButton systemButton="Ti.UI.iPhone.SystemButton.ADD" onClick="doadd"/>
 		</Window>
 	</NavigationWindow>
 
@@ -25,9 +25,9 @@
 
       <!-- this implements the toolbar menu icons.  remove if not needed                                            -->
       <!-- information on the possible native values for systemButton(icon): http://docs.appcelerator.com/titanium/3.0/#!/api/Titanium.UI.iPhone.SystemButton -->
-      <RightNavButtons>
-        <Button systemButton="Ti.UI.iPhone.SystemButton.ADD" onClick="doadd"/>
-      </RightNavButtons>
+
+      <!-- Changed back to RightNavButton due to SDK Bug https://jira.appcelerator.org/browse/TIMOB-17367 -->
+      <RightNavButton systemButton="Ti.UI.iPhone.SystemButton.ADD" onClick="doadd"/>
     </Window>
   </NavigationWindow>
 </Alloy>
