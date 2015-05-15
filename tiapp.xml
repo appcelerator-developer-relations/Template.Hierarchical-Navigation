@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
-	<id>com.crossplatformtemplate</id>
-	<name>Cross-Platform Template</name>
+	<id>__PROJECT_ID__</id>
+	<name>__PROJECT_NAME__</name>
+	<guid></guid>
 	<version>1.0</version>
 	<publisher>not specified</publisher>
 	<url/>
@@ -10,7 +11,6 @@
 	<fullscreen>false</fullscreen>
 	<navbar-hidden>false</navbar-hidden>
 	<analytics>true</analytics>
-	<guid>11111111-1111-1111-1111-111111111111</guid>
 	<property name="ti.ui.defaultunit" type="string">dp</property>
 	<ios>
 		<plist>
@@ -41,7 +41,7 @@
 		<manifest>
 	        <application android:theme="@style/Light"/>
 	        <!-- <application android:theme="@style/Dark"/> -->
-	        <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+	        <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
 	    </manifest>
 	</android>
 	<mobileweb>
@@ -53,17 +53,7 @@
 		</splash>
 		<theme>default</theme>
 	</mobileweb>
-	<modules>
-		<module platform="android">com.alcoapps.actionbarextras</module>
-	</modules>
-	<deployment-targets>
-		<target device="android">true</target>
-		<target device="blackberry">false</target>
-		<target device="ipad">true</target>
-		<target device="iphone">true</target>
-		<target device="mobileweb">false</target>
-	</deployment-targets>
-	<sdk-version>3.5.1.GA</sdk-version>
+	<modules/>
 <plugins><plugin version="1.0">ti.alloy</plugin>
 </plugins>
 </ti:app>

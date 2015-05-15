@@ -10,14 +10,14 @@ if (!Alloy.isTablet){
   if (OS_IOS){
     $.sharedhome.greeting.text = "Hello from iOS";
   }else if (OS_ANDROID){
-    $.sharedhome.greeting.text = "Hello from Android"
+    $.sharedhome.greeting.text = "Hello from Android";
   }
 }else{
   if (OS_IOS){
     console.log('ipad');
     $.sharedhome.greeting.text = "Hello from iPad";
   }else if (OS_ANDROID){
-    $.sharedhome.greeting.text = "Hello from Android Tablet"
+    $.sharedhome.greeting.text = "Hello from Android Tablet";
   }
 }
 
