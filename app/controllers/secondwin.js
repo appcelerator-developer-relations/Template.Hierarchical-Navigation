@@ -6,7 +6,6 @@ function closewin(evt){
 
 function doopen(evt){
 	if (OS_ANDROID){
-		var abx=require('com.alcoapps.actionbarextras');
-		abx.setBackgroundColor('#dddddd');
+		
 	}
 }
