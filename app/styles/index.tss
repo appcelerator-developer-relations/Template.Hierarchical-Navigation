@@ -1,0 +1,20 @@
+"Window[platform=ios formFactor=handheld]":{
+	title: "iOS Window"
+}
+
+"Window[platform=android formFactor=handheld]":{
+	title: "Android Window"
+}
+
+"Window[platform=ios formFactor=tablet]":{
+  title: "iPad Window"
+}
+
+"Window[platform=android formFactor=tablet]":{
+  title: "Android Tablet Window"
+}
+
+".container":{
+	backgroundColor: "#fff",
+ 	orientationModes: [Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.PORTRAIT,Ti.UI.UPSIDE_PORTRAIT]
+}
