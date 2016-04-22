@@ -6,11 +6,8 @@ The Barebones template provides the necessary scaffolding to implement native hi
 ![](http://drops.ricardoalcocer.com/drops/readme_image-Nxc2gu6gH5.png)
 ![](http://sht.tl/VYhJar)
 
-* **Index.xml** is an empty view
-* **Index.js** picks up the request and loads the "home" controller
-* The "home" controller is platform specific, so you have two versions: **/views/ios/home.xml and /views/android/home.xml**. Alloy picks up the right one for the platform.
-* **Home.xml** "Requires" the "sharedhome" controller
-* **Home.js** is a single cross-platform controller used by either one of the home.xml files.  From here we can "talk" to the "sharedhome" files, effectively providing platform-specific containers with shared content
+* **Index.xml** is platform specific and lives inside the iOS and Android folders
+* **Index.js** picks up the request, which "Requires" the "sharedhome" controller.  This file is a single cross-platform controller used by all supported platforms.  From here we can "talk" to the "sharedhome" files, effectively providing platform-specific containers with shared content
 
 ## Important to keep in mind
 This template project is using platform-specific folders to organize your **main app containers** and keep them in separate places.  This practice is perfectly fine for the main container.  For all other windows I recommend you keep your code in a single View file and use the platform attribute, for example:
@@ -48,20 +45,6 @@ if (OS_IOS){
 ```
 
 ---
-
-NOTES: 
-
-**home.js** includes ActionBarExtras to help you easily customize the ActionBar without the need for custom ActionBar Styles.
-
-It also includes three base themes you could use in your **tiapp.xml**: Light, Dark and LightDarkBar.  To use any of these, simply declare them in the Android section like so:
-
-````xml
-<android xmlns:android="http://schemas.android.com/apk/res/android">
-    <manifest>
-          <application android:theme="@style/Light"/>
-    </manifest>
-</android>
-````
 
 # License
 
