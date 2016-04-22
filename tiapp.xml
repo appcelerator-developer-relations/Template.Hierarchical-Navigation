@@ -42,7 +42,7 @@
 		<manifest>
 	        <application android:theme="@style/Light"/>
 	        <!-- <application android:theme="@style/Dark"/> -->
-	        <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
+	        <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23"/>
 	    </manifest>
 	</android>
 	<mobileweb>
