@@ -5,8 +5,8 @@
 <Alloy>
 
   <!-- iPhone/iPod Touch Window -->
-	<NavigationWindow id="nav" formFactor="handheld">
-		<Window id="win" class="container">
+	<NavigationWindow id="index" formFactor="handheld">
+		<Window class="container">
 			<Require src="sharedhome" id="sharedhome"/>
 
 			<!-- this implements the toolbar menu icons.  remove if not needed 																						-->
@@ -19,8 +19,8 @@
 
 
   <!-- iPad Window -->
-  <NavigationWindow id="nav" formFactor="tablet">
-    <Window id="win" class="container">
+  <NavigationWindow id="index" formFactor="tablet">
+    <Window class="container">
       <Require src="sharedhome" id="sharedhome"/>
 
       <!-- this implements the toolbar menu icons.  remove if not needed                                            -->
