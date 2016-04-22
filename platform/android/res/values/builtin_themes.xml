@@ -3,4 +3,11 @@
 	<style name="LightDarkBar" parent="Theme.AppCompat.Light.DarkActionBar"/>
 	<style name="Light" parent="Theme.AppCompat.Light"/>
 	<style name="Dark" parent="Theme.AppCompat"/>
+
+	<style name="appcelerator" parent="@style/Theme.AppCompat">
+		<item name="colorPrimary">#CD1625</item>
+		<item name="colorAccent">#333333</item>
+		<item name="android:statusBarColor">#A30A00</item>
+		<item name="android:navigationBarColor">#CD1625</item>
+	</style>
 </resources>

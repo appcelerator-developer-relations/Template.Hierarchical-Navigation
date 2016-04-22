@@ -1,0 +1,9 @@
+'Window[platform=ios]': {
+	backgroundColor: Alloy.CFG.brandPrimary,
+  barColor: Alloy.CFG.brandPrimary,
+  navTintColor: "#FFF",
+	translucent: false,
+	titleAttributes: {
+		color: "#FFF"
+	}
+}

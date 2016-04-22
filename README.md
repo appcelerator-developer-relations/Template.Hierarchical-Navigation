@@ -1,10 +1,10 @@
 # Template.Hierarchical-Navigation
 
 
-The Barebones template provides the necessary scaffolding to implement native hierarchical, also known as Parent-Child or Master-Detail, using platform-specific containers with content reusability, ensuring the best native user experience with high code reusability when required.  Here's what it offers:
+The Barebones template provides the necessary scaffolding to implement native hierarchical, also known as Parent-Child or Master-Detail, using platform-specific containers with content reusability, ensuring the best native user experience with high code reusability when required.  Here's how it looks on iPhone, Android, iPad and Android Tablet:
 
-![](http://drops.ricardoalcocer.com/drops/readme_image-Nxc2gu6gH5.png)
-![](http://sht.tl/VYhJar)
+![](http://sht.tl/wfYXSI)
+
 
 * **Index.xml** is platform specific and lives inside the iOS and Android folders
 * **Index.js** picks up the request, which "Requires" the "sharedhome" controller.  This file is a single cross-platform controller used by all supported platforms.  From here we can "talk" to the "sharedhome" files, effectively providing platform-specific containers with shared content
